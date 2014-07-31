@@ -1,0 +1,80 @@
+<classpath>
+  <classpathentry kind="src" path="src/main/scala" output="target/classes"/>
+  <classpathentry kind="src" path="src/main/java" output="target/classes"/>
+  <classpathentry kind="src" path="src/test/scala" output="target/test-classes"/>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes"/>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.readr/model/srcs/model-1.0-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.readr/model/jars/model-1.0.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.m2/repository/com/readr/client/1.0/client-1.0-sources.jar" kind="lib" path="/Users/raphael/.m2/repository/com/readr/client/1.0/client-1.0.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.typesafe.play/play-ws_2.10/srcs/play-ws_2.10-2.3.0-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.typesafe.play/play-ws_2.10/jars/play-ws_2.10-2.3.0.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.typesafe.play/play_2.10/srcs/play_2.10-2.3.0-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.typesafe.play/play_2.10/jars/play_2.10-2.3.0.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.typesafe.play/build-link/srcs/build-link-2.3.0-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.3.0.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.typesafe.play/play-exceptions/srcs/play-exceptions-2.3.0-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.3.0.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.javassist/javassist/srcs/javassist-3.18.2-GA-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.18.2-GA.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.typesafe.play/play-iteratees_2.10/srcs/play-iteratees_2.10-2.3.0-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.typesafe.play/play-iteratees_2.10/jars/play-iteratees_2.10-2.3.0.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.scala-stm/scala-stm_2.10/srcs/scala-stm_2.10-0.7-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.scala-stm/scala-stm_2.10/jars/scala-stm_2.10-0.7.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.typesafe.play/play-json_2.10/srcs/play-json_2.10-2.3.0-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.typesafe.play/play-json_2.10/jars/play-json_2.10-2.3.0.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.typesafe.play/play-functional_2.10/srcs/play-functional_2.10-2.3.0-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.typesafe.play/play-functional_2.10/jars/play-functional_2.10-2.3.0.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.typesafe.play/play-datacommons_2.10/srcs/play-datacommons_2.10-2.3.0-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.typesafe.play/play-datacommons_2.10/jars/play-datacommons_2.10-2.3.0.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.3-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.6-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.6.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.3.2-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.3.2.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.3.2-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.3.2.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.3.2-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.3.2.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.typesafe.play/twirl-api_2.10/srcs/twirl-api_2.10-1.0.0-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.typesafe.play/twirl-api_2.10/jars/twirl-api_2.10-1.0.0.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.1-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.1.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/io.netty/netty/srcs/netty-3.9.1.Final-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/io.netty/netty/bundles/netty-3.9.1.Final.jar"/>
+  <classpathentry kind="lib" path="/Users/raphael/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.2.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.6-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.6.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.slf4j/jul-to-slf4j/srcs/jul-to-slf4j-1.7.6-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.6.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.slf4j/jcl-over-slf4j/srcs/jcl-over-slf4j-1.7.6-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.6.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/ch.qos.logback/logback-core/srcs/logback-core-1.1.1-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.1.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.1.1-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.1.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/srcs/akka-actor_2.10-2.3.3-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.3.3.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.typesafe/config/srcs/config-1.2.1-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/srcs/akka-slf4j_2.10-2.3.3-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/jars/akka-slf4j_2.10-2.3.3.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.9-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.9.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/xerces/xercesImpl/srcs/xercesImpl-2.11.0-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/xml-apis/xml-apis/srcs/xml-apis-1.4.01-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/javax.transaction/jta/srcs/jta-1.1-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.google.guava/guava/srcs/guava-16.0.1-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.google.guava/guava/bundles/guava-16.0.1.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.ning/async-http-client/srcs/async-http-client-1.8.8-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.8.8.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/oauth.signpost/signpost-core/srcs/signpost-core-1.2.1.2-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/oauth.signpost/signpost-commonshttp4/srcs/signpost-commonshttp4-1.2.1.2-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.0.1-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.0.1-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.1.1-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.json4s/json4s-jackson_2.10/srcs/json4s-jackson_2.10-3.2.9-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.json4s/json4s-jackson_2.10/jars/json4s-jackson_2.10-3.2.9.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.json4s/json4s-core_2.10/srcs/json4s-core_2.10-3.2.9-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.json4s/json4s-core_2.10/jars/json4s-core_2.10-3.2.9.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.json4s/json4s-ast_2.10/srcs/json4s-ast_2.10-3.2.9-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.json4s/json4s-ast_2.10/jars/json4s-ast_2.10-3.2.9.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.6-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.6.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.scala-lang/scalap/srcs/scalap-2.10.0-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.10.0.jar"/>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_COMPILER_CONTAINER"/>
+  <classpathentry kind="lib" path="/Users/raphael/.ivy2/cache/org.apache.hadoop/hadoop-client/jars/hadoop-client-1.0.4.jar"/>
+  <classpathentry kind="lib" path="/Users/raphael/.ivy2/cache/org.apache.hadoop/hadoop-core/jars/hadoop-core-1.0.4.jar"/>
+  <classpathentry kind="lib" path="/Users/raphael/.ivy2/cache/xmlenc/xmlenc/jars/xmlenc-0.52.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.apache.commons/commons-math/srcs/commons-math-2.1-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.apache.commons/commons-math/jars/commons-math-2.1.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/commons-configuration/commons-configuration/srcs/commons-configuration-1.6-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/commons-configuration/commons-configuration/jars/commons-configuration-1.6.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/commons-collections/commons-collections/srcs/commons-collections-3.2.1-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/commons-lang/commons-lang/srcs/commons-lang-2.4-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.4.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/commons-digester/commons-digester/srcs/commons-digester-1.8-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/commons-digester/commons-digester/jars/commons-digester-1.8.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/commons-beanutils/commons-beanutils/srcs/commons-beanutils-1.7.0-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar"/>
+  <classpathentry kind="lib" path="/Users/raphael/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/commons-net/commons-net/srcs/commons-net-1.4.1-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/commons-net/commons-net/jars/commons-net-1.4.1.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/oro/oro/srcs/oro-2.0.8-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/oro/oro/jars/oro-2.0.8.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/commons-el/commons-el/srcs/commons-el-1.0-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/commons-el/commons-el/jars/commons-el-1.0.jar"/>
+  <classpathentry kind="lib" path="/Users/raphael/.ivy2/cache/hsqldb/hsqldb/jars/hsqldb-1.8.0.10.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/srcs/jackson-mapper-asl-1.0.1-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.0.1.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/srcs/jackson-core-asl-1.0.1-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.0.1.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.twitter/chill_2.10/srcs/chill_2.10-0.3.6-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.twitter/chill_2.10/jars/chill_2.10-0.3.6.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.twitter/chill-java/srcs/chill-java-0.3.6-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.twitter/chill-java/jars/chill-java-0.3.6.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.esotericsoftware.kryo/kryo/srcs/kryo-2.21-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.esotericsoftware.kryo/kryo/bundles/kryo-2.21.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.esotericsoftware.reflectasm/reflectasm/srcs/reflectasm-1.07-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.esotericsoftware.reflectasm/reflectasm/jars/reflectasm-1.07-shaded.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.ow2.asm/asm/srcs/asm-4.0-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.ow2.asm/asm/jars/asm-4.0.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/com.esotericsoftware.minlog/minlog/srcs/minlog-1.2-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/com.esotericsoftware.minlog/minlog/jars/minlog-1.2.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.objenesis/objenesis/srcs/objenesis-1.2-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-1.2.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.ow2.asm/asm-commons/srcs/asm-commons-4.0-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.ow2.asm/asm-commons/jars/asm-commons-4.0.jar"/>
+  <classpathentry sourcepath="/Users/raphael/.ivy2/cache/org.ow2.asm/asm-tree/srcs/asm-tree-4.0-sources.jar" kind="lib" path="/Users/raphael/.ivy2/cache/org.ow2.asm/asm-tree/jars/asm-tree-4.0.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="bin"/>
+</classpath>

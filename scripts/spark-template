@@ -1,0 +1,37 @@
+val sourceDir = "${INDIR}"
+val outDir = "${OUTDIR}"
+
+implicit val isc = sc
+
+import com.readr.spark._
+import com.readr.spark.rr._
+import com.readr.spark.index._
+import com.readr.spark.allenai._
+import com.readr.spark.stanford34._
+import com.readr.spark.other._
+import com.readr.spark.cj._
+
+implicit val se = new Schema
+
+val a = read(sourceDir, se).repartition(2)
+
+val b = annotate(a, new FactorieSegmenter, se)
+val c = annotate(b, new FactorieTokenizer, se)
+val d = annotate(c, new FactoriePOSTagger, se)
+val e = annotate(d, new MorphaStemmer, se)
+val f = annotate(e, new PolyParser, se)
+val g = annotate(f, new com.readr.spark.allenai.SimpleMentionExtractor, se)
+val n = g
+
+n.persist
+
+write(n, outDir, se)
+
+DocumentIndexer.run(outDir, n)
+SourceIndexer.run(outDir, n)
+TextIndexer.run(outDir, n)
+TokenIndexer.run(outDir, n)
+DependencyIndexer.run(outDir, n)
+POSIndexer.run(outDir, n)
+LemmaIndexer.run(outDir, n)
+NERIndexer.run(outDir, n)
