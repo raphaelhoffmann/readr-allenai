@@ -13,9 +13,13 @@ You must have Apache spark installed in a directory if you would like to process
 
 If you would like to run Kevin's preprocessing scripts for the wikipedia corpora, you must also install xml, gsed. 
 
-## Getting Started
+## API examples
 
-1. In `settings` set the user and password fields.
+See the examples in `src/main/scala/allenai/example` to see how to push patterns, fetch results, etc. 
+
+## Pushing allenai corpora into readr
+
+1. In `conf/application.conf` set the user and password fields.
 
 2. Run `sbt compile` to see if you can fetch all dependencies. (Note: you must have your Allenai Nexus credentials set up for this to work.)
 
