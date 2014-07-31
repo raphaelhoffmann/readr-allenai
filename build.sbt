@@ -9,7 +9,10 @@ crossPaths := false
 
 scalaVersion := "2.10.4"
 
+resourceDirectory in Compile <<= baseDirectory { _ / "conf" }
+
 libraryDependencies ++= Seq(
+  "com.typesafe" % "config" % "1.2.1",
   "com.readr" % "model" % "1.0-SNAPSHOT",
   "com.readr" % "client" % "1.0-SNAPSHOT"
 )     
