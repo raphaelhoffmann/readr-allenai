@@ -25,13 +25,13 @@ See the examples in `src/main/scala/allenai/example` to see how to push patterns
 
 `sbt "runMain allenai.example.Example5FetchPatternAnnotations"`
 
-## 2. Pushing allenai corpora into readr
+## 3. Pushing allenai corpora into readr
 
 1. Run `sbt compile` to see if you can fetch all dependencies. (Note: you must have your Allenai Nexus credentials set up for this to work.)
 
 2. Run `./run.sh` to download the barrons corpus, process the barrons corpus, and upload the indices to Readr Cloud.
 
-## Pushing and Pulling Extraction Rules
+## 4. Copying rule sets
 
 Readr Cloud makes it easy to create, manipulate, and test extraction rules. When you are done using Readr Cloud you can fetch the rules you have created to store them locally.
 
