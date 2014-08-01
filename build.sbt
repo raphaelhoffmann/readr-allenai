@@ -18,8 +18,12 @@ libraryDependencies ++= Seq(
 )     
 
 resolvers ++= Seq(
-  "Readr snapshots" at "s3://snapshots.mvn-repo.readr.com",
-  "Readr releases" at "s3://releases.mvn-repo.readr.com"
+  "Readr snapshots" at "http://snapshots.mvn-repo.readr.com.s3-website-us-east-1.amazonaws.com",
+  "Readr releases" at "http://releases.mvn-repo.readr.com.s3-website-us-east-1.amazonaws.com"
+  //"Readr snapshots" at "http://snapshots.mvn-repo.readr.com",
+  //"Readr releases" at "http://releases.mvn-repo.readr.com"
+  //"Readr snapshots" at "s3://snapshots.mvn-repo.readr.com",
+  //"Readr releases" at "s3://releases.mvn-repo.readr.com"
 )
 
 //resolvers += "Allenai Readr" at
