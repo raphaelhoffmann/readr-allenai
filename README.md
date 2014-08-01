@@ -9,13 +9,19 @@ The following has been tested on MacOS X with
 
 Scala 2.10.4, sbt 0.13, Spark 1.0.1
 
+Add `addSbtPlugin("com.frugalmechanic" % "fm-sbt-s3-resolver" % "0.3.0")` to `~/.sbt/0.13/plugins/build.sbt` to enable fetching dependencies from S3.
+
 You must have Apache spark installed in a directory if you would like to process and push new datasets to readr. Fetch spark at `https://spark.apache.org/downloads.html`.
 
 If you would like to run Kevin's preprocessing scripts for the wikipedia corpora, you must also install xml, gsed. 
 
-## Getting Started
+## API examples
 
-1. In `settings` set the user and password fields.
+See the examples in `src/main/scala/allenai/example` to see how to push patterns, fetch results, etc. 
+
+## Pushing allenai corpora into readr
+
+1. In `conf/application.conf` set the user and password fields.
 
 2. Run `sbt compile` to see if you can fetch all dependencies. (Note: you must have your Allenai Nexus credentials set up for this to work.)
 
