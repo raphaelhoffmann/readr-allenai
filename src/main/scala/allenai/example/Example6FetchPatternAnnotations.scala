@@ -41,7 +41,7 @@ object Example6FetchPatternAnnotations {
     
     Client.open        
     
-    val frameID = frames.idByName("1sttest")
+    val frameID = frames.idByName("frame2")
     if (frameID == -1)
       println("Frame not found")
 
@@ -86,7 +86,7 @@ object Example6FetchPatternAnnotations {
         writer.write("// " + textAnn.text + "\n")
         writer.write("doc " + as.documentID + ", sentNum " + as.sentNum + ", sentenceTokenOffset " + sto + ", truth " + frameManual.features(0).truth + "\n")
         for (arg <- frameManual.features(0).args) 
-          println("arg " + arg.argNum + ": " + (arg.pos - sto) + "\n")
+          writer.write("arg " + arg.argNum + ": " + (arg.pos - sto) + "\n")
       }
       
       hasMore = prs.hasMore

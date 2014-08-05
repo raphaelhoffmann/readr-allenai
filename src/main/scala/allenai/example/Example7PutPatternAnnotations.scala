@@ -44,12 +44,12 @@ object Example7PutPatternAnnotations {
 
     implicit val p = Project(ns, proj)
 
-    val layerID = layerDefaults("FrameMatchFeature", "Manual")    
-    implicit val lay = FrameMatchFeatureLayerRef(layerID)
-        
     Client.open        
+
+    val layerID = layerDefaults("FrameMatchFeature", "Manual")    
+    implicit val lay = FrameMatchFeatureLayerRef(layerID)        
     
-    val frameID = frames.idByName("1sttest")
+    val frameID = frames.idByName("frame3")
     if (frameID == -1)
       println("Frame not found")
 
@@ -82,6 +82,8 @@ object Example7PutPatternAnnotations {
         
       } else if (l.startsWith("doc ")) {
     	val m = docPattern.matcher(l)
+    	m.find
+    	//println(l)
     	documentID = m.group(1).toInt
     	sentNum = m.group(2).toInt
     	sentenceTokenOffset = m.group(3).toInt
@@ -89,6 +91,7 @@ object Example7PutPatternAnnotations {
               
       } else if (l.startsWith("arg ")) {
         val m = argPattern.matcher(l)
+        m.find
         val argNum = m.group(1).toByte
         val pos = m.group(2).toInt
         args += FrameMatchFeatureArg(argNum, documentID, sentenceTokenOffset + pos)
