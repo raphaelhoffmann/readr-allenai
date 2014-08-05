@@ -38,14 +38,17 @@ Readr Cloud makes it easy to create, manipulate, and test extraction rules. When
 ### Copying frames/rules using kryo (fast, but not human-readable)
 
 `./fetch_frames.sh`
+
 `./push_frames.sh`
  
 ### Copying annotations only for given frame as text (easy to read and edit)
     
 `sbt "runMain allenai.example.Example6FetchPatternAnnotations"`
+
 `sbt "runMain allenai.example.Example7PutPatternAnnotations"`
     
 ### Copying frames/rules/annotation for all frames using json (editable, but not very easily)
 
 `sbt "runMain allenai.example.Example8FetchAllMeaning"`
+
 `sbt "runMain allenai.example.Example9PutAllMeaning"`
