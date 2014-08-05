@@ -2,7 +2,7 @@
 
 echo
 echo "======= barrons-4th-grade ========"
-./run-dataset.sh barrons-4th-grade-2 Barrons-Grade-4-Science-headers.txt us-ascii Barrons-Grade-4-Science-sentences.txt us-ascii
+./run-dataset.sh barrons-4th-grade Barrons-Grade-4-Science-headers.txt us-ascii Barrons-Grade-4-Science-sentences.txt us-ascii
 
 echo
 echo "======= campbell-biology ======="
