@@ -27,6 +27,8 @@ resolvers ++= Seq(
   //"Readr releases" at "s3://releases.mvn-repo.readr.com"
 )
 
+resolvers += "Typesafe Maven Repository" at "http://repo.typesafe.com/typesafe/maven-releases/"
+
 //resolvers += "Allenai Readr" at
 //  "http://utility.allenai.org:8081/nexus/content/repositories/subcontractor/releases"
 
