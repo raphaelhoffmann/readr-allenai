@@ -45,7 +45,7 @@ fi
 
 echo
 echo "==> reading config"
-source settings
+source conf/application.conf
 if [ -z "$HOST" ];
 then
   echo "HOST not set"

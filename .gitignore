@@ -1,4 +1,6 @@
+.git
 .cache
 project
 data
 target
+/bin

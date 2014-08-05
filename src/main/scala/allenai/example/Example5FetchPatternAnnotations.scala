@@ -61,9 +61,9 @@ object Example5FetchPatternAnnotations {
       val framePatterns = ann(4).asInstanceOf[FrameMatchFeatureAnn]
       val frameManual = ann(5).asInstanceOf[FrameMatchFeatureAnn]
         
-      println(textAnn.text)
+      println("// " + textAnn.text)
       for (arg <- frameManual.features(0).args) 
-        println("arg " + arg.frameArgID + ": " + (arg.pos - sentenceTokenOffsetAnn.sents(0).f))   
+        println("arg " + arg.argNum + ": " + (arg.pos - sentenceTokenOffsetAnn.sents(0).f))   
     }
     
     if (prs.hasMore)

@@ -14,7 +14,8 @@ resourceDirectory in Compile <<= baseDirectory { _ / "conf" }
 libraryDependencies ++= Seq(
   "com.typesafe" % "config" % "1.2.1",
   "com.readr" % "model" % "1.0-SNAPSHOT",
-  "com.readr" % "client" % "1.0-SNAPSHOT"
+  "com.readr" % "client" % "1.0-SNAPSHOT",
+  "org.json4s" %% "json4s-jackson" % "3.2.9"
 )     
 
 resolvers ++= Seq(

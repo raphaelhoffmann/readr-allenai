@@ -41,8 +41,8 @@ object Example3CreateFrameWithPattern {
     //val frameID = frames.create(f)
     val rv = frames.addMany(Seq(f))
     val frameID = rv(0)
-    frameArgs.add(frameID, FrameArg(-1, frameID, 0, "r", "root", true))
-    frameArgs.add(frameID, FrameArg(-1, frameID, 1, "c", "complement", true))
+    frameArgs.add(frameID, FrameArg(frameID, 0, "r", "root", true))
+    frameArgs.add(frameID, FrameArg(frameID, 1, "c", "complement", true))
     frameValences.update(frameID, 
       """|dep(r, "xcomp", c) & partOfSpeech(c, "VBG") & ~(exists d dep(c, "ccomp", d))
          |
