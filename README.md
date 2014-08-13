@@ -33,11 +33,22 @@ See the examples in `src/main/scala/allenai/example` to see how to push patterns
 
 ## 4. Copying rule sets
 
-Readr Cloud makes it easy to create, manipulate, and test extraction rules. When you are done using Readr Cloud you can fetch the rules you have created to store them locally.
+Readr Cloud makes it easy to create, manipulate, and test extraction rules. When you are done using Readr Cloud you can fetch the rules and annotations you have created to store them locally. You can also write these back to Readr Cloud (to the same or a different Readr project). There are a bunch of different options:
+
+### Copying frames/rules using kryo (fast, but not human-readable)
 
 `./fetch_frames.sh`
 
-Finally, if you would like to push this rule set to a dataset in Readr Cloud (it can be the same or a different dataset), run
-
 `./push_frames.sh`
  
+### Copying annotations only for given frame as text (easy to read and edit)
+    
+`sbt "runMain allenai.example.Example6FetchPatternAnnotations"`
+
+`sbt "runMain allenai.example.Example7PutPatternAnnotations"`
+    
+### Copying frames/rules/annotation for all frames using json (editable, but not very easily)
+
+`sbt "runMain allenai.example.Example8FetchAllMeaning"`
+
+`sbt "runMain allenai.example.Example9PutAllMeaning"`
