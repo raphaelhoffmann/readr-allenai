@@ -38,6 +38,16 @@ object Example6FetchPatternAnnotations {
     Client.password = password
     
     implicit val p = Project(ns, proj)
+        
+    // store annotations in local file
+    val outDir = "/tmp/test"
+    if (new File(outDir).exists) {
+      println("/tmp/test already exists, you must delete that first")
+      System.exit(1)
+    }
+    new File(outDir).mkdirs
+    
+    val f = new File(outDir + "/annotations")
     
     Client.open        
     
@@ -49,16 +59,6 @@ object Example6FetchPatternAnnotations {
     println("totalMatches = " + frameCounts.totalMatches)
     println("confirmedMatches = " + frameCounts.confirmedMatches)
     println("...")
-
-    // store annotations in local file
-    val outDir = "/tmp/test"
-    if (new File(outDir).exists) {
-      println("/tmp/test already exists, you must delete that first")
-      System.exit(1)
-    }
-    new File(outDir).mkdirs
-    
-    val f = new File(outDir + "/annotations")
     
     val writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(f), "utf-8"))
 

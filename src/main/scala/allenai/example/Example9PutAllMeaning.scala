@@ -41,9 +41,8 @@ import org.json4s.JsonDSL._
 import org.json4s.jackson.JsonMethods._
 
 
-
 object Example9PutAllMeaning {
-  implicit val formats = Serialization.formats(NoTypeHints) //ShortTypeHints())//)//(LayerRef.layerTypes ++ Annotations.annotations))
+  implicit val formats = Serialization.formats(NoTypeHints)
   
   def main(args:Array[String]) = {
     val conf = ConfigFactory.load
@@ -51,8 +50,7 @@ object Example9PutAllMeaning {
     val user = conf.getString("USER")
     val password = conf.getString("PASSWORD")
     val ns = conf.getString("NS")
-    //val proj = conf.getString("EXAMPLE_PROJ")
-    val proj = "barrons_4th_grade_2"
+    val proj = conf.getString("EXAMPLE_PROJ")
     
     Client.baseUrl = host + "/api"
     Client.user = user
@@ -86,12 +84,7 @@ object Example9PutAllMeaning {
       while ({ l = r.readLine; l != null }) {
         val fmf = read[FrameMatchFeature](l)
         frameMatchFeatures.add(fmf.copy(frameID = newFrameID))
-      }
-      
-      //println(frame)
-      
-      // fetch features
-      
+      }      
       r.close
     }
       
